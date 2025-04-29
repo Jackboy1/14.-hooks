@@ -6,12 +6,9 @@ import { moviesData } from '../data'
 
 /**
  * MovieList component
- * 
  * This component renders a list of movies with a filter component above it.
  * The filter component allows users to filter the list of movies by title and/or rating.
  * The list of movies is fetched from the moviesData array in the data file.
- * 
- * @returns JSX element
  */
 const MovieList = () => {
   const [movies, setMovies] = useState([])
